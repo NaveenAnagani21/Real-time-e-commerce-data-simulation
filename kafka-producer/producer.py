@@ -37,7 +37,7 @@ def excel_to_kafka(file_path, kafka_config, topic_name):
 
 # Usage
 file_name = "online_sales_data.csv"
-kafka_config = {"bootstrap.servers": "localhost:9092", "client.id": "excel_producer"}
+kafka_config = {"bootstrap.servers": "localhost:9092", "client.id": "csv_producer"}
 topic_name = "csv_data_topic"
 
 excel_to_kafka(file_name, kafka_config, topic_name)
